@@ -11,7 +11,8 @@
 
 void create(const char * x) {
   int semVal;
-  sscanf(x, "%d", semVal);
+  sscanf(x, "%d", &semVal);
+  printf("something%d\n", semVal);
 }
 void view() {
   printf("something\n");
