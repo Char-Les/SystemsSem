@@ -4,15 +4,6 @@ all:
 run: all
 	./sem
 
-c: all
-	./sem -c 4
-
-v: all
-	./sem -v
-
-r: all
-	./sem -r
-
 cvcr: all
 	./sem -c 4
 	./sem -v
